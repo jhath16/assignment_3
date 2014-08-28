@@ -1,14 +1,14 @@
-* {
-  //border:solid red 1px;
-}
 body {
   text-align:center;
+}
+section {
+  padding-top:5px;
 }
 .container {
   width:1000px;
   margin:0 auto;
   height:675px;
-  background:linear-gradient(to top right,rgba(245, 245, 245, 0),rgba(245,245,245,0.6));
+  background:radial-gradient(rgba(245, 245, 245, 0.9),rgba(245,245,245,0));
   border-radius:10px;
   border:black solid 2px;
 }
@@ -17,8 +17,7 @@ nav {
   font-size:60px;
   vertical-align:middle;
   padding-bottom:10px;
-  border:black 2px solid;
-  border-radius:10px;
+  outline:black 1px solid;
 }
 .sidebar{
   position:relative;
@@ -27,27 +26,27 @@ nav {
   display:inline-block;
   left:20px;
   width:150px;
-  border-radius:10px;
   margin-right:75px;
 }
 a {
   font-size:30px;
   color:white;
   background-color:none;
+  padding-left:2px;
+  padding-right:2px;
 }s
 nav, .content {
-  height:300px;
   position:relative;
 }
 .content {
   font-size:20px;
   display:inline-block;
   background:linear-gradient(#e6e6e6, #757575);
-  //left:100px;
-//  width:400px;
-  border:2px outset #2e2100;
+  border:4px double black;
   border-radius:10px;
-  top:65px;
+  top:75px;
+  width:600px;
+  padding-bottom:20px;
 }
 body {
   background:url(http://bgfons.com/upload/sky_texture1967.jpg);
@@ -65,9 +64,8 @@ div {
   background:linear-gradient(#270aff,#0077e6);
   color:white;
   border:black solid 1px;
-  position:relative;
-  left:99px;
-  top:-2px;
+  position:absolute;
+  right:53px;
   height:28px;
   width:65px;
   margin-top:10px;
@@ -92,6 +90,8 @@ p {
   width:100%;
   height:auto;
   font-size:18px;
+  font-family:Verdana;
+  text-align:center;
 }
 
 a:hover {
