@@ -2,7 +2,7 @@ body {
   text-align:center;
 }
 section {
-  padding-top:5px;
+  padding-top:16px;
 }
 .container {
   width:1000px;
@@ -44,7 +44,7 @@ nav, .content {
   background:linear-gradient(#e6e6e6, #757575);
   border:4px double black;
   border-radius:10px;
-  top:75px;
+  top:125px;
   width:600px;
   padding-bottom:20px;
 }
@@ -61,18 +61,19 @@ div {
 }
 
 .button {
-  background:linear-gradient(#270aff,#0077e6);
+  background:linear-gradient(#0061bd,#007cf0);
   color:white;
   border:black solid 1px;
   position:absolute;
   right:53px;
-  height:28px;
-  width:65px;
+  height:35px;
+  width:70px;
+  bottom:2px;
   margin-top:10px;
   margin-bottom:10px;
 }
 .button:hover {
-  background:#4258ff;
+  background:linear-gradient(#0069cc,#339cff);
 }
 
 .textbox {
@@ -89,9 +90,12 @@ div {
 p {
   width:100%;
   height:auto;
-  font-size:18px;
+  font-size:46px;
   font-family:Verdana;
   text-align:center;
+  vertical-align:middle;
+  margin-bottom:10px;
+  color:#4d4d4d;
 }
 
 a:hover {
